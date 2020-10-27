@@ -1,0 +1,23 @@
+.features {
+    
+    > div {
+        @extend .py-5;
+    }
+
+    .feature__bg-img {
+        position: absolute;
+        width: 200px;
+        right: -4px;    
+        bottom: -300px;
+    }
+}
+
+.section_photo img {
+    width: 80%;
+}
+
+.section_fluid {
+    position: relative;
+    padding: 20px 119.5px;
+    margin: 0 -119.5px;
+}

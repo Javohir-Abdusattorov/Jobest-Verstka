@@ -1,0 +1,109 @@
+::-webkit-scrollbar {
+  width: 7px;
+}
+::-webkit-scrollbar-track {
+  background: #74004F; 
+}
+::-webkit-scrollbar-thumb {
+  background: rgb(255, 0, 174); 
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #FF7DD6; 
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+body {
+    padding-top: 20px;
+    background-size: 100%;
+    background-image: url(../img/body-img-1.png), url(../img/footer-bg-img.png);
+	background-repeat: no-repeat;
+	background-size: contain, 100% 900px;
+    background-position: center top, center bottom;
+	font-family: "Poppins", "Arial", sans-serif;
+	overflow-x: hidden;
+}
+
+$container-max-widths: (
+  sm: 540px,
+  md: 720px,
+  lg: 960px,
+  xl: 1000px
+);
+
+
+@font-face {
+	font-family: "Poppins";
+	src: url(../fonts/poppins-v9-latin-regular.woff) format("woff"),
+	url(../fonts/poppins-v9-latin-regular.woff2) format("woff2");
+	font-weight: 400;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "Poppins";
+	src: url(../fonts/poppins-v9-latin-300.woff) format("woff"),
+	url(../fonts/poppins-v9-latin-300.woff2) format("woff2");
+	font-weight: 300;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "Poppins";
+	src: url(../fonts/poppins-v9-latin-500.woff) format("woff"),
+	url(../fonts/poppins-v9-latin-500.woff2) format("woff2");
+	font-weight: 500;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "Poppins";
+	src: url(../fonts/poppins-v9-latin-600.woff) format("woff"),
+	url(../fonts/poppins-v9-latin-600.woff2) format("woff2");
+	font-weight: 600;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "Poppins";
+	src: url(../fonts/poppins-v9-latin-700.woff) format("woff"),
+	url(../fonts/poppins-v9-latin-700.woff2) format("woff2");
+	font-weight: 700;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "Rubic";
+	src: url(../fonts/rubik-v9-latin-regular.woff) format("woff"),
+	url(../fonts/rubik-v9-latin-regular.woff2) format("woff2");
+	font-weight: 400;
+	font-style: normal;
+	font-display: swap;
+}
+
+.lead {
+    font-size: 35px;
+    color: $lead-color;
+    font-weight: 500;
+}
+
+.text {
+    font-size: 18px;
+    color: $lead-color;
+    font-family: "Rubic";
+    opacity: 60%;
+}
+
+p::selection, h1::selection, h2::selection, h3::selection, h4::selection, 
+h5::selection, h6::selection {
+	background-color: #A0000D !important;
+	color: #FFFFFF !important;
+}

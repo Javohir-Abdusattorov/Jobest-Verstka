@@ -1,0 +1,17 @@
+.partner {
+    @include make-row();
+    align-items: center;
+    padding: 30px 0;
+
+    > div {
+        @include make-col(6);
+    }
+
+    .partner__info {
+        padding-right: 120px;
+
+        .lead {
+            margin-bottom: 30px;
+        }
+    }
+}

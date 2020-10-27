@@ -1,0 +1,75 @@
+.landing_nav {
+    @extend .navbar, .navbar-expand-lg, .py-2;
+}
+
+.site_logo {
+    @extend .navbar-brand;
+}
+
+.image {
+    @extend .img-fluid;
+}
+
+.nav__menu {
+    @extend .collapse, .navbar-collapse;
+}
+
+.nav__list {
+    @extend .navbar-nav, .ml-auto;
+}
+
+.navbar-brand img {
+    width: 100px;
+}
+
+.creative_link {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-image: linear-gradient(
+        to right,
+        #265CAD,
+        #1B3F77
+    );
+}
+
+.navbar-nav {
+    align-items: center;
+
+    a {
+        color: #fff;
+        font-family: "Rubic";
+    }
+}
+
+.site_lead {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    margin-bottom: 200px;
+}
+
+.site_title {
+    font-size: 50px;
+    font-weight: 600;
+    line-height: 55px;
+    color: $lead-color;
+    margin-bottom: 25px;
+}
+
+.h6, .search_input{
+    font-family: "Rubic";
+    color: $lead-color;
+    opacity: 50%;
+}
+
+.form-control:focus {
+    box-shadow: none !important;    
+}
+
+.btn:hover {
+    color: #ffffff;
+}
+
+.form__btn {
+    background-color: #FFA025;
+    color: #fff;
+}
